@@ -12,7 +12,7 @@ window.onload = function(){
         for (let c = 0; c < columns; c++){
             
             let tile = document.createElement("img");
-            tile.src = "./images/blankwhite.png";
+            tile.src = "blankwhite.png";
 
             tile.addEventListener("dragstart", dragStart);
             tile.addEventListener("dragover", dragOver);
