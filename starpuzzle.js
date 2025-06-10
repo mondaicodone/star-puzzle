@@ -12,7 +12,7 @@ window.onload = function(){
         for (let c = 0; c < columns; c++){
             
             let tile = document.createElement("img");
-            tile.src = "./main/blankwhite.png";
+            tile.src = "blankwhite.png";
 
             tile.addEventListener("dragstart", dragStart);
             tile.addEventListener("dragover", dragOver);
@@ -40,7 +40,7 @@ window.onload = function(){
 
     for (let i = 0; i < pieces.length; i++){
         let tile = document.createElement("img");
-        tile.src = "./main/" + pieces[i] + ".png";
+        tile.src = pieces[i] + ".png";
         
         tile.addEventListener("dragstart", dragStart);
         tile.addEventListener("dragover", dragOver);
@@ -74,7 +74,7 @@ function dragDrop(){
 }
 
 function dragEnd(){
-    if (currentTile.src.includes("blankwhite")) {
+    if (currentTile.src.includes("blankwhite.png")) {
         return;
     }
     let currentImg = currentTile.src;
