@@ -1,0 +1,47 @@
+body {
+
+    @font-face {
+        font-family: 'dotgothic';
+        src: url(/Users/mondai/Downloads/DotGothic16/DotGothic16-Regular.ttf);
+    }
+    font-family: dotgothic;
+    text-align: center;
+
+}
+
+#board {
+    width: 380px;
+    height: 380px;
+    border: 4px solid #0400e7;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 95px;
+    height: 95px;
+    border: 0px solid rgb(224, 220, 243);
+}
+
+#pieces {
+    width: 760px;
+    height: 190px;
+    border: 4px solid #0400e7;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#pieces img {
+
+    width: 93px;
+    height: 93px;
+    border: 1px solid rgb(224, 220, 243);
+
+
+}
+
+
